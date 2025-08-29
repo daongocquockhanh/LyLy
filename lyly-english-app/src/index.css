@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    font-family: 'Poppins', sans-serif;
+    color: #e04a4a;
+    background: linear-gradient(135deg, #fef2f2 0%, #fde8e8 50%, #fbd5d5 100%);
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply bg-gradient-to-r from-pastel-500 to-pastel-600 text-white px-6 py-3 rounded-full font-medium transition-all duration-300 hover:shadow-pink-glow hover:-translate-y-1 hover:scale-105;
+  }
+  
+  .btn-secondary {
+    @apply bg-white border-2 border-pastel-500 text-pastel-500 px-6 py-3 rounded-full font-medium transition-all duration-300 hover:bg-pastel-500 hover:text-white hover:shadow-pink-soft;
+  }
+  
+  .card {
+    @apply bg-white rounded-2xl shadow-pink-soft p-6 transition-all duration-300 hover:shadow-pink-warm hover:-translate-y-2 border-2 border-pastel-200 hover:border-pastel-300;
+  }
+  
+  .week-card {
+    @apply bg-white rounded-2xl shadow-pink-soft p-6 transition-all duration-300 hover:shadow-pink-warm hover:-translate-y-2 cursor-pointer border-2 border-transparent hover:border-pastel-300 relative z-10;
+  }
+  
+  .week-card:hover {
+    @apply border-pastel-400;
+  }
+  
+  .week-card.completed {
+    @apply border-pastel-400 bg-pastel-50;
+  }
+  
+  .week-card.current {
+    @apply border-pastel-500 bg-pastel-100;
+  }
+  
+  .week-card.locked {
+    @apply opacity-60 cursor-not-allowed;
+  }
+
+  .lesson-card {
+    @apply bg-white rounded-xl shadow-pink-soft p-4 transition-all duration-300 hover:shadow-pink-warm hover:-translate-y-1 border-2 border-pastel-200 hover:border-pastel-300;
+  }
+
+  .progress-card {
+    @apply bg-gradient-to-br from-pastel-100 to-pastel-200 rounded-2xl shadow-pink-warm p-6 border-2 border-pastel-300;
+  }
+
+  .welcome-hero {
+    @apply bg-gradient-to-br from-pastel-200 via-pastel-300 to-pastel-400 rounded-3xl shadow-pink-glow p-8 relative overflow-hidden border-2 border-pastel-300;
+  }
+
+  .decorative-element {
+    @apply absolute opacity-80 animate-pink-float;
+  }
+
+  /* Pink overlay for more pinkness */
+  .pink-overlay {
+    @apply relative;
+  }
+
+  .pink-overlay::before {
+    content: '';
+    @apply absolute inset-0 bg-gradient-to-br from-pastel-100/30 to-pastel-200/30 pointer-events-none;
+  }
+
+  /* Enhanced pink backgrounds */
+  .pink-bg {
+    @apply bg-gradient-to-br from-pastel-50 via-pastel-100 to-pastel-200;
+  }
+
+  .pink-bg-alt {
+    @apply bg-gradient-to-br from-pastel-100 via-pastel-200 to-pastel-300;
+  }
+
+  /* Pink text variations */
+  .text-pink-primary {
+    @apply text-pastel-600;
+  }
+
+  .text-pink-secondary {
+    @apply text-pastel-500;
+  }
+
+  .text-pink-accent {
+    @apply text-pastel-400;
+  }
+}
