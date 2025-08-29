@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LyLy's English Learning Journey</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <div class="app-container">
+        <!-- Header -->
+        <header class="header">
+            <div class="header-content">
+                <h1><i class="fas fa-heart"></i> LyLy's English Journey</h1>
+                <div class="progress-info">
+                    <span class="level">Level: <span id="currentLevel">1</span></span>
+                    <span class="points">Points: <span id="totalPoints">0</span></span>
+                </div>
+            </div>
+        </header>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <!-- Welcome Screen -->
+            <div id="welcomeScreen" class="screen active">
+                <div class="welcome-content">
+                    <div class="welcome-icon">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                    <h2>Welcome to Your English Adventure!</h2>
+                    <p>Let's start learning English together, step by step!</p>
+                    <button class="btn btn-primary" onclick="startLearning()">
+                        <i class="fas fa-play"></i> Start Learning
+                    </button>
+                    <button class="btn btn-secondary" onclick="showProgress()">
+                        <i class="fas fa-chart-line"></i> My Progress
+                    </button>
+                </div>
+            </div>
+
+            <!-- Lesson Screen -->
+            <div id="lessonScreen" class="screen">
+                <div class="lesson-header">
+                    <button class="btn btn-back" onclick="goBack()">
+                        <i class="fas fa-arrow-left"></i> Back
+                    </button>
+                    <h3 id="lessonTitle">Lesson 1: Basic Greetings</h3>
+                    <div class="lesson-progress">
+                        <span id="lessonProgress">1/5</span>
+                    </div>
+                </div>
+
+                <div class="lesson-content">
+                    <div id="lessonCard" class="lesson-card">
+                        <!-- Lesson content will be loaded here -->
+                    </div>
+                    
+                    <div class="lesson-controls">
+                        <button id="prevBtn" class="btn btn-secondary" onclick="previousQuestion()" disabled>
+                            <i class="fas fa-chevron-left"></i> Previous
+                        </button>
+                        <button id="nextBtn" class="btn btn-primary" onclick="nextQuestion()">
+                            Next <i class="fas fa-chevron-right"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Progress Screen -->
+            <div id="progressScreen" class="screen">
+                <div class="progress-header">
+                    <button class="btn btn-back" onclick="goBack()">
+                        <i class="fas fa-arrow-left"></i> Back
+                    </button>
+                    <h3>My Learning Progress</h3>
+                </div>
+                
+                <div class="progress-content">
+                    <div class="stats-grid">
+                        <div class="stat-card">
+                            <i class="fas fa-calendar-check"></i>
+                            <h4>Days Active</h4>
+                            <span id="daysActive">0</span>
+                        </div>
+                        <div class="stat-card">
+                            <i class="fas fa-star"></i>
+                            <h4>Total Points</h4>
+                            <span id="totalPointsDisplay">0</span>
+                        </div>
+                        <div class="stat-card">
+                            <i class="fas fa-trophy"></i>
+                            <h4>Current Level</h4>
+                            <span id="currentLevelDisplay">1</span>
+                        </div>
+                        <div class="stat-card">
+                            <i class="fas fa-book-open"></i>
+                            <h4>Lessons Completed</h4>
+                            <span id="lessonsCompleted">0</span>
+                        </div>
+                    </div>
+                    
+                    <div class="achievements">
+                        <h4>Achievements</h4>
+                        <div id="achievementsList" class="achievements-list">
+                            <!-- Achievements will be loaded here -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <!-- Navigation -->
+        <nav class="bottom-nav">
+            <button class="nav-btn active" onclick="showWelcome()">
+                <i class="fas fa-home"></i>
+                <span>Home</span>
+            </button>
+            <button class="nav-btn" onclick="showProgress()">
+                <i class="fas fa-chart-line"></i>
+                <span>Progress</span>
+            </button>
+            <button class="nav-btn" onclick="showSettings()">
+                <i class="fas fa-cog"></i>
+                <span>Settings</span>
+            </button>
+        </nav>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
