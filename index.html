@@ -31,13 +31,18 @@
                     </div>
                     <h2>Welcome to Your English Adventure!</h2>
                     <p>Let's start learning English together, step by step!</p>
-                    <button class="btn btn-primary" onclick="startLearning()">
+                    <button class="btn btn-primary" onclick="showDashboard()">
                         <i class="fas fa-play"></i> Start Learning
                     </button>
                     <button class="btn btn-secondary" onclick="showProgress()">
                         <i class="fas fa-chart-line"></i> My Progress
                     </button>
                 </div>
+            </div>
+
+            <!-- Dashboard Screen -->
+            <div id="dashboardScreen" class="screen">
+                <!-- Dashboard content will be loaded here by JavaScript -->
             </div>
 
             <!-- Lesson Screen -->
@@ -116,6 +121,10 @@
             <button class="nav-btn active" onclick="showWelcome()">
                 <i class="fas fa-home"></i>
                 <span>Home</span>
+            </button>
+            <button class="nav-btn" onclick="showDashboard()">
+                <i class="fas fa-compass"></i>
+                <span>Journey</span>
             </button>
             <button class="nav-btn" onclick="showProgress()">
                 <i class="fas fa-chart-line"></i>

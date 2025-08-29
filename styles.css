@@ -112,6 +112,249 @@ body {
     line-height: 1.6;
 }
 
+/* Dashboard Styles */
+.dashboard-header {
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.dashboard-header h2 {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 1rem;
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.progress-overview {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 600px;
+    margin: 0 auto;
+    gap: 2rem;
+}
+
+.week-progress {
+    flex: 1;
+}
+
+.week-progress span {
+    display: block;
+    font-weight: 500;
+    margin-bottom: 0.5rem;
+    color: #666;
+}
+
+.progress-bar {
+    width: 100%;
+    height: 12px;
+    background: #f0f0f0;
+    border-radius: 6px;
+    overflow: hidden;
+}
+
+.progress-fill {
+    height: 100%;
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    border-radius: 6px;
+    transition: width 0.5s ease;
+}
+
+.streak-info span {
+    background: linear-gradient(135deg, #ff6b6b, #ee5a24);
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    font-weight: 500;
+}
+
+.current-week {
+    background: white;
+    border-radius: 20px;
+    padding: 2rem;
+    margin-bottom: 2rem;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.current-week h3 {
+    font-size: 1.8rem;
+    color: #333;
+    margin-bottom: 0.5rem;
+}
+
+.current-week p {
+    color: #666;
+    margin-bottom: 2rem;
+    font-size: 1.1rem;
+}
+
+.week-days {
+    display: grid;
+    gap: 1rem;
+}
+
+.day-item {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem;
+    border-radius: 15px;
+    transition: all 0.3s ease;
+}
+
+.day-item.current {
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    color: white;
+    transform: scale(1.02);
+}
+
+.day-item.completed {
+    background: #4CAF50;
+    color: white;
+}
+
+.day-item.upcoming {
+    background: #f0f0f0;
+    color: #666;
+}
+
+.day-number {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+
+.day-item.current .day-number {
+    background: rgba(255, 255, 255, 0.2);
+}
+
+.day-item.completed .day-number {
+    background: rgba(255, 255, 255, 0.2);
+}
+
+.day-item.upcoming .day-number {
+    background: #ddd;
+}
+
+.day-info {
+    flex: 1;
+}
+
+.day-title {
+    display: block;
+    font-weight: 500;
+    margin-bottom: 0.2rem;
+}
+
+.day-status {
+    font-size: 0.9rem;
+    opacity: 0.8;
+}
+
+.today-lesson {
+    background: white;
+    border-radius: 20px;
+    padding: 2rem;
+    margin-bottom: 2rem;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.today-lesson h3 {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+
+.lesson-modules {
+    display: grid;
+    gap: 1rem;
+}
+
+.lesson-module {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 1.5rem;
+    border-radius: 15px;
+    background: #f8f9fa;
+    transition: all 0.3s ease;
+}
+
+.lesson-module:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+}
+
+.module-icon {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    color: white;
+}
+
+.lesson-module.learn .module-icon {
+    background: linear-gradient(135deg, #667eea, #764ba2);
+}
+
+.lesson-module.practice .module-icon {
+    background: linear-gradient(135deg, #4CAF50, #45a049);
+}
+
+.lesson-module.speak .module-icon {
+    background: linear-gradient(135deg, #ff6b6b, #ee5a24);
+}
+
+.lesson-module.quiz .module-icon {
+    background: linear-gradient(135deg, #ff9800, #f57c00);
+}
+
+.lesson-module.review .module-icon {
+    background: linear-gradient(135deg, #9c27b0, #7b1fa2);
+}
+
+.lesson-module.game .module-icon {
+    background: linear-gradient(135deg, #e91e63, #c2185b);
+}
+
+.lesson-module.roleplay .module-icon {
+    background: linear-gradient(135deg, #00bcd4, #0097a7);
+}
+
+.module-info {
+    flex: 1;
+}
+
+.module-info h4 {
+    font-size: 1.1rem;
+    color: #333;
+    margin-bottom: 0.3rem;
+}
+
+.duration {
+    font-size: 0.9rem;
+    color: #666;
+}
+
+.quick-actions {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 2rem;
+}
+
 /* Buttons */
 .btn {
     padding: 0.8rem 1.5rem;
@@ -160,6 +403,11 @@ body {
     background: rgba(255, 255, 255, 0.3);
 }
 
+.btn-small {
+    padding: 0.5rem 1rem;
+    font-size: 0.9rem;
+}
+
 /* Lesson Screen */
 .lesson-header {
     display: flex;
@@ -204,6 +452,139 @@ body {
     display: flex;
     justify-content: center;
     gap: 1rem;
+}
+
+/* Learning Modules */
+.learn-module h3 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 2rem;
+}
+
+.word-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1.5rem;
+    margin-bottom: 2rem;
+    width: 100%;
+}
+
+.word-card {
+    background: white;
+    border-radius: 15px;
+    padding: 1.5rem;
+    text-align: center;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.word-card:hover {
+    transform: translateY(-5px);
+}
+
+.word-image {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.word-card h4 {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 0.5rem;
+}
+
+.meaning {
+    color: #666;
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+}
+
+.module-navigation {
+    margin-top: 2rem;
+}
+
+/* Practice Module */
+.practice-module h3 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 2rem;
+}
+
+.practice-exercise {
+    text-align: center;
+}
+
+/* Speak Module */
+.speak-module h3 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 2rem;
+}
+
+.speech-recognition {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.speech-result {
+    margin-top: 1rem;
+    padding: 1rem;
+    background: #f8f9fa;
+    border-radius: 10px;
+    min-height: 80px;
+}
+
+.speech-result .feedback {
+    color: #4CAF50;
+    font-weight: 500;
+}
+
+.speech-result .error {
+    color: #f44336;
+}
+
+/* Quiz Module */
+.quiz-module h3 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 2rem;
+}
+
+.quiz-question {
+    text-align: center;
+}
+
+/* Review Module */
+.review-module h3 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 2rem;
+}
+
+.review-content {
+    text-align: center;
+}
+
+/* Game Module */
+.game-module h3 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 2rem;
+}
+
+.game-content {
+    text-align: center;
+}
+
+/* Roleplay Module */
+.roleplay-module h3 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 2rem;
+}
+
+.roleplay-content {
+    text-align: center;
 }
 
 /* Progress Screen */
@@ -269,6 +650,23 @@ body {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
     gap: 1rem;
+}
+
+.achievement-item {
+    background: white;
+    padding: 1rem;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 3px 15px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.achievement-item i {
+    font-size: 2rem;
+    color: #ffd700;
 }
 
 /* Bottom Navigation */
@@ -420,7 +818,12 @@ body {
         grid-template-columns: repeat(2, 1fr);
     }
     
-    .options-grid {
+    .progress-overview {
+        flex-direction: column;
+        gap: 1rem;
+    }
+    
+    .word-cards {
         grid-template-columns: 1fr;
     }
 }
@@ -433,5 +836,14 @@ body {
     .lesson-controls {
         flex-direction: column;
         align-items: center;
+    }
+    
+    .week-days {
+        grid-template-columns: 1fr;
+    }
+    
+    .lesson-module {
+        flex-direction: column;
+        text-align: center;
     }
 }
