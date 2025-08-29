@@ -1,70 +1,118 @@
-# Getting Started with Create React App
+# LoveLyLy - English Learning App 💖
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A beautiful, interactive English learning application designed with love and care. Learn English through a structured 12-week curriculum with a delightful pink design system.
 
-## Available Scripts
+## ✨ Features
 
-In the project directory, you can run:
+### 🎓 Learning Curriculum
+- **12 Weeks** of structured English lessons
+- **Interactive Navigation** between weeks and days
+- **Progress Tracking** with XP points and achievements
+- **Beautiful UI** with smooth animations and transitions
 
-### `npm start`
+### 🎨 Design System
+- **Pink Theme** with floating hearts throughout
+- **Responsive Design** that works on all devices
+- **Custom Animations** using Framer Motion
+- **Tailwind CSS** for modern, beautiful styling
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### 📚 Week Breakdown
+1. **Week 1:** Alphabet & Greetings 🔤
+2. **Week 2:** Family & Objects 👨‍👩‍👧‍👦
+3. **Week 3:** Colors, Days & Questions 🎨
+4. **Week 4:** Daily Routine & Verbs ⏰
+5. **Week 5:** Food & Drinks 🍕
+6. **Week 6:** Shopping & Clothes 🛍️
+7. **Week 7:** Places & Directions 🗺️
+8. **Week 8:** Weather & Activities 🌤️
+9. **Week 9:** Hobbies & Free Time 🎯
+10. **Week 10:** Health & Body 🏥
+11. **Week 11:** Travel & Transport ✈️
+12. **Week 12:** Final Review & Project 🏆
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 🚀 Getting Started
 
-### `npm test`
+### Prerequisites
+- Node.js (version 14 or higher)
+- npm or yarn package manager
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Installation
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/daongocquockhanh/LyLy.git
+   cd lovelyly
+   ```
 
-### `npm run build`
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+3. Start the development server:
+   ```bash
+   npm run dev
+   ```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+4. Open [http://localhost:3000](http://localhost:3000) in your browser
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 🛠️ Available Scripts
 
-### `npm run eject`
+- **`npm run dev`** - Start development server
+- **`npm start`** - Start development server (alternative)
+- **`npm run build`** - Build for production
+- **`npm test`** - Run tests
+- **`npm run eject`** - Eject from Create React App
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## 🎯 How to Use
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+1. **Navigate to Weeks** - Click "Weeks" to see all available learning weeks
+2. **Select a Week** - Click on any week card to see daily lessons
+3. **Choose a Day** - Each week has 5 days with 3 lessons each
+4. **Complete Lessons** - Work through learn, practice, and speak activities
+5. **Track Progress** - Monitor your XP and achievements
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## 🎨 Technology Stack
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- **Frontend:** React.js with React Router
+- **Styling:** Tailwind CSS with custom pink theme
+- **Animations:** Framer Motion for smooth transitions
+- **Icons:** Custom emoji and SVG elements
+- **State Management:** React Context API
+- **Local Storage:** Progress persistence
 
-## Learn More
+## 💖 Design Philosophy
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+LoveLyLy is built with love and attention to detail:
+- **Beautiful pink gradients** that inspire learning
+- **Floating hearts** that create a joyful atmosphere
+- **Smooth animations** that make learning engaging
+- **Responsive design** that works everywhere
+- **Accessible navigation** for all users
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## 🌟 Contributing
 
-### Code Splitting
+We welcome contributions! Please feel free to:
+- Report bugs
+- Suggest new features
+- Submit pull requests
+- Improve the design system
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## 📄 License
 
-### Analyzing the Bundle Size
+This project is open source and available under the [MIT License](LICENSE).
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## 🚀 Deployment
 
-### Making a Progressive Web App
+The app is ready for deployment on:
+- Vercel
+- Netlify
+- GitHub Pages
+- Any static hosting service
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## 💝 Made with Love
 
-### Advanced Configuration
+LoveLyLy is more than just an app - it's a journey of learning English with joy, beauty, and lots of pink hearts! 💖✨
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+---
 
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+**Happy Learning! 🎓💖**
