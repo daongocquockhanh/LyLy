@@ -1,0 +1,357 @@
+export const week2 = {
+  1: {
+    1: {
+      title: "Family Members",
+      type: "learn",
+      content: [
+        { word: "Mother", meaning: "Me", emoji: "👩", phonetic: "/ˈmʌðər/" },
+        { word: "Father", meaning: "Bo", emoji: "👨", phonetic: "/ˈfɑːðər/" },
+        { word: "Brother", meaning: "Anh trai", emoji: "👦", phonetic: "/ˈbrʌðər/" },
+        { word: "Sister", meaning: "Chi gai", emoji: "👧", phonetic: "/ˈsɪstər/" },
+        { word: "Grandmother", meaning: "Ba", emoji: "👵", phonetic: "/ˈɡrænmʌðər/" },
+        { word: "Grandfather", meaning: "Ong", emoji: "👴", phonetic: "/ˈɡrænfɑːðər/" },
+        { word: "Baby", meaning: "Em be", emoji: "👶", phonetic: "/ˈbeɪbi/" },
+        { word: "Husband", meaning: "Chong", emoji: "💑", phonetic: "/ˈhʌzbənd/" },
+        { word: "Wife", meaning: "Vo", emoji: "💑", phonetic: "/waɪf/" },
+      ],
+    },
+    2: {
+      title: "Quiz: Family Members",
+      type: "practice",
+      content: [
+        {
+          question: "'Me' trong tieng Anh la gi?",
+          options: ["Father", "Sister", "Mother", "Wife"],
+          correct: 2,
+          explanation: "'Me' trong tieng Anh la 'Mother'.",
+        },
+        {
+          question: "What does 'Brother' mean in Vietnamese?",
+          options: ["Chi gai", "Anh trai", "Bo", "Ong"],
+          correct: 1,
+          explanation: "'Brother' nghia la 'Anh trai' trong tieng Viet.",
+        },
+        {
+          question: "'Grandmother' nghia la gi?",
+          options: ["Me", "Chi gai", "Vo", "Ba"],
+          correct: 3,
+          explanation: "'Grandmother' nghia la 'Ba'.",
+        },
+        {
+          question: "Who is 'Husband' in Vietnamese?",
+          options: ["Bo", "Anh trai", "Chong", "Ong"],
+          correct: 2,
+          explanation: "'Husband' nghia la 'Chong'.",
+        },
+        {
+          question: "'Em be' trong tieng Anh noi nhu the nao?",
+          options: ["Sister", "Baby", "Brother", "Wife"],
+          correct: 1,
+          explanation: "'Em be' trong tieng Anh la 'Baby'.",
+        },
+      ],
+    },
+    3: {
+      title: "Speak: My Family",
+      type: "speak",
+      content: {
+        instruction: "Luyen noi ve gia dinh",
+        items: [
+          { text: "This is my mother.", phonetic: "/ðɪs ɪz maɪ ˈmʌðər/", meaning: "Day la me toi." },
+          { text: "This is my father.", phonetic: "/ðɪs ɪz maɪ ˈfɑːðər/", meaning: "Day la bo toi." },
+          { text: "This is my brother.", phonetic: "/ðɪs ɪz maɪ ˈbrʌðər/", meaning: "Day la anh trai toi." },
+          { text: "This is my sister.", phonetic: "/ðɪs ɪz maɪ ˈsɪstər/", meaning: "Day la chi gai toi." },
+          { text: "I love my family.", phonetic: "/aɪ lʌv maɪ ˈfæməli/", meaning: "Toi yeu gia dinh toi." },
+        ],
+      },
+    },
+  },
+  2: {
+    1: {
+      title: "House Objects",
+      type: "learn",
+      content: [
+        { word: "Table", meaning: "Ban", emoji: "🪑", phonetic: "/ˈteɪbəl/" },
+        { word: "Chair", meaning: "Ghe", emoji: "💺", phonetic: "/tʃer/" },
+        { word: "Door", meaning: "Cua", emoji: "🚪", phonetic: "/dɔːr/" },
+        { word: "Window", meaning: "Cua so", emoji: "🪟", phonetic: "/ˈwɪndoʊ/" },
+        { word: "Bed", meaning: "Giuong", emoji: "🛏️", phonetic: "/bed/" },
+        { word: "Phone", meaning: "Dien thoai", emoji: "📱", phonetic: "/foʊn/" },
+        { word: "Book", meaning: "Sach", emoji: "📚", phonetic: "/bʊk/" },
+        { word: "Lamp", meaning: "Den", emoji: "💡", phonetic: "/læmp/" },
+      ],
+    },
+    2: {
+      title: "Quiz: House Objects",
+      type: "practice",
+      content: [
+        {
+          question: "'Ban' trong tieng Anh la gi?",
+          options: ["Chair", "Bed", "Table", "Door"],
+          correct: 2,
+          explanation: "'Ban' trong tieng Anh la 'Table'.",
+        },
+        {
+          question: "What does 'Window' mean?",
+          options: ["Cua", "Cua so", "Giuong", "Den"],
+          correct: 1,
+          explanation: "'Window' nghia la 'Cua so'.",
+        },
+        {
+          question: "Do vat nao dung de doc?",
+          options: ["Lamp", "Phone", "Chair", "Book"],
+          correct: 3,
+          explanation: "'Book' (Sach) la do vat dung de doc.",
+        },
+        {
+          question: "'Bed' nghia la gi trong tieng Viet?",
+          options: ["Ban", "Ghe", "Giuong", "Cua"],
+          correct: 2,
+          explanation: "'Bed' nghia la 'Giuong', noi de ngu.",
+        },
+        {
+          question: "Which object gives light?",
+          options: ["Table", "Door", "Phone", "Lamp"],
+          correct: 3,
+          explanation: "'Lamp' (Den) la vat cho anh sang.",
+        },
+      ],
+    },
+    3: {
+      title: "Speak: House Objects",
+      type: "speak",
+      content: {
+        instruction: "Luyen noi ten do vat",
+        items: [
+          { text: "This is a table.", phonetic: "/ðɪs ɪz ə ˈteɪbəl/", meaning: "Day la cai ban." },
+          { text: "This is a chair.", phonetic: "/ðɪs ɪz ə tʃer/", meaning: "Day la cai ghe." },
+          { text: "This is a door.", phonetic: "/ðɪs ɪz ə dɔːr/", meaning: "Day la cai cua." },
+          { text: "This is a bed.", phonetic: "/ðɪs ɪz ə bed/", meaning: "Day la cai giuong." },
+          { text: "This is a book.", phonetic: "/ðɪs ɪz ə bʊk/", meaning: "Day la quyen sach." },
+        ],
+      },
+    },
+  },
+  3: {
+    1: {
+      title: "This / That",
+      type: "learn",
+      content: [
+        { word: "This", meaning: "Day (vat gan)", emoji: "👈", phonetic: "/ðɪs/" },
+        { word: "That", meaning: "Do (vat xa)", emoji: "👉", phonetic: "/ðæt/" },
+        { word: "This is a book.", meaning: "Day la mot quyen sach.", emoji: "📖", phonetic: "/ðɪs ɪz ə bʊk/" },
+        { word: "That is a table.", meaning: "Do la cai ban.", emoji: "🪑", phonetic: "/ðæt ɪz ə ˈteɪbəl/" },
+        { word: "This is my phone.", meaning: "Day la dien thoai cua toi.", emoji: "📱", phonetic: "/ðɪs ɪz maɪ foʊn/" },
+        { word: "That is a window.", meaning: "Do la cai cua so.", emoji: "🪟", phonetic: "/ðæt ɪz ə ˈwɪndoʊ/" },
+      ],
+    },
+    2: {
+      title: "Quiz: This / That",
+      type: "practice",
+      content: [
+        {
+          question: "Khi chi vat o gan, ban dung tu nao?",
+          options: ["That", "Those", "This", "There"],
+          correct: 2,
+          explanation: "'This' dung khi chi vat o gan ban.",
+        },
+        {
+          question: "'That' dung khi nao?",
+          options: ["Vat o gan", "Vat o xa", "Nhieu vat", "Khong vat nao"],
+          correct: 1,
+          explanation: "'That' dung khi chi vat o xa ban.",
+        },
+        {
+          question: "Fill in: ___ is a book. (pointing at something near you)",
+          options: ["That", "This", "It", "A"],
+          correct: 1,
+          explanation: "Dung 'This' vi quyen sach o gan ban.",
+        },
+        {
+          question: "'Do la cai ban' dich sang tieng Anh la gi?",
+          options: ["This is a table.", "That is a table.", "This is a chair.", "That is a chair."],
+          correct: 1,
+          explanation: "'Do' la 'That', nen cau dung la 'That is a table.'",
+        },
+        {
+          question: "Fill in: ___ is my phone. (holding your phone)",
+          options: ["That", "Those", "This", "There"],
+          correct: 2,
+          explanation: "Ban dang cam dien thoai (vat gan), nen dung 'This'.",
+        },
+      ],
+    },
+    3: {
+      title: "Speak: This and That",
+      type: "speak",
+      content: {
+        instruction: "Luyen noi This/That",
+        items: [
+          { text: "This is a book.", phonetic: "/ðɪs ɪz ə bʊk/", meaning: "Day la mot quyen sach." },
+          { text: "That is a table.", phonetic: "/ðæt ɪz ə ˈteɪbəl/", meaning: "Do la cai ban." },
+          { text: "This is my phone.", phonetic: "/ðɪs ɪz maɪ foʊn/", meaning: "Day la dien thoai cua toi." },
+          { text: "That is a window.", phonetic: "/ðæt ɪz ə ˈwɪndoʊ/", meaning: "Do la cai cua so." },
+          { text: "This is a chair.", phonetic: "/ðɪs ɪz ə tʃer/", meaning: "Day la cai ghe." },
+        ],
+      },
+    },
+  },
+  4: {
+    1: {
+      title: "Numbers 11-20",
+      type: "learn",
+      content: [
+        { letter: "11", word: "Eleven", meaning: "Muoi mot", emoji: "1️⃣1️⃣", phonetic: "/ɪˈlevən/" },
+        { letter: "12", word: "Twelve", meaning: "Muoi hai", emoji: "1️⃣2️⃣", phonetic: "/twelv/" },
+        { letter: "13", word: "Thirteen", meaning: "Muoi ba", emoji: "1️⃣3️⃣", phonetic: "/ˌθɜːrˈtiːn/" },
+        { letter: "14", word: "Fourteen", meaning: "Muoi bon", emoji: "1️⃣4️⃣", phonetic: "/ˌfɔːrˈtiːn/" },
+        { letter: "15", word: "Fifteen", meaning: "Muoi lam", emoji: "1️⃣5️⃣", phonetic: "/ˌfɪfˈtiːn/" },
+        { letter: "16", word: "Sixteen", meaning: "Muoi sau", emoji: "1️⃣6️⃣", phonetic: "/ˌsɪksˈtiːn/" },
+        { letter: "17", word: "Seventeen", meaning: "Muoi bay", emoji: "1️⃣7️⃣", phonetic: "/ˌsevənˈtiːn/" },
+        { letter: "18", word: "Eighteen", meaning: "Muoi tam", emoji: "1️⃣8️⃣", phonetic: "/ˌeɪˈtiːn/" },
+        { letter: "19", word: "Nineteen", meaning: "Muoi chin", emoji: "1️⃣9️⃣", phonetic: "/ˌnaɪnˈtiːn/" },
+        { letter: "20", word: "Twenty", meaning: "Hai muoi", emoji: "2️⃣0️⃣", phonetic: "/ˈtwenti/" },
+      ],
+    },
+    2: {
+      title: "Quiz: Numbers 11-20",
+      type: "practice",
+      content: [
+        {
+          question: "'Muoi hai' trong tieng Anh la gi?",
+          options: ["Eleven", "Twelve", "Thirteen", "Twenty"],
+          correct: 1,
+          explanation: "'Muoi hai' trong tieng Anh la 'Twelve' (12).",
+        },
+        {
+          question: "What number is 'Fifteen'?",
+          options: ["13", "14", "15", "16"],
+          correct: 2,
+          explanation: "'Fifteen' la so 15 (Muoi lam).",
+        },
+        {
+          question: "So nao dung sau 'Seventeen'?",
+          options: ["Sixteen", "Nineteen", "Eighteen", "Twenty"],
+          correct: 2,
+          explanation: "Sau 'Seventeen' (17) la 'Eighteen' (18).",
+        },
+        {
+          question: "'Twenty' la so may?",
+          options: ["12", "15", "18", "20"],
+          correct: 3,
+          explanation: "'Twenty' la so 20 (Hai muoi).",
+        },
+        {
+          question: "How do you say 'Muoi chin' in English?",
+          options: ["Eighteen", "Nineteen", "Sixteen", "Fourteen"],
+          correct: 1,
+          explanation: "'Muoi chin' trong tieng Anh la 'Nineteen' (19).",
+        },
+      ],
+    },
+    3: {
+      title: "Speak: Numbers 11-20",
+      type: "speak",
+      content: {
+        instruction: "Luyen dem so 11-20",
+        items: [
+          { text: "Eleven", phonetic: "/ɪˈlevən/", meaning: "Muoi mot" },
+          { text: "Twelve", phonetic: "/twelv/", meaning: "Muoi hai" },
+          { text: "Thirteen", phonetic: "/ˌθɜːrˈtiːn/", meaning: "Muoi ba" },
+          { text: "Fourteen", phonetic: "/ˌfɔːrˈtiːn/", meaning: "Muoi bon" },
+          { text: "Fifteen", phonetic: "/ˌfɪfˈtiːn/", meaning: "Muoi lam" },
+          { text: "Sixteen", phonetic: "/ˌsɪksˈtiːn/", meaning: "Muoi sau" },
+          { text: "Seventeen", phonetic: "/ˌsevənˈtiːn/", meaning: "Muoi bay" },
+          { text: "Eighteen", phonetic: "/ˌeɪˈtiːn/", meaning: "Muoi tam" },
+          { text: "Nineteen", phonetic: "/ˌnaɪnˈtiːn/", meaning: "Muoi chin" },
+          { text: "Twenty", phonetic: "/ˈtwenti/", meaning: "Hai muoi" },
+          { text: "I am 25 years old.", phonetic: "/aɪ æm ˈtwenti faɪv jɪrz oʊld/", meaning: "Toi 25 tuoi." },
+        ],
+      },
+    },
+  },
+  5: {
+    1: {
+      title: "Week 2 Review",
+      type: "learn",
+      content: [
+        { word: "Mother", meaning: "Me", emoji: "👩" },
+        { word: "Father", meaning: "Bo", emoji: "👨" },
+        { word: "Table", meaning: "Ban", emoji: "🪑" },
+        { word: "Book", meaning: "Sach", emoji: "📚" },
+        { word: "This", meaning: "Day (vat gan)", emoji: "👈" },
+        { word: "That", meaning: "Do (vat xa)", emoji: "👉" },
+        { letter: "15", word: "Fifteen", meaning: "Muoi lam", emoji: "1️⃣5️⃣" },
+        { letter: "20", word: "Twenty", meaning: "Hai muoi", emoji: "2️⃣0️⃣" },
+      ],
+    },
+    2: {
+      title: "Week 2 Review Quiz",
+      type: "practice",
+      content: [
+        {
+          question: "'Father' nghia la gi?",
+          options: ["Me", "Bo", "Ong", "Anh trai"],
+          correct: 1,
+          explanation: "'Father' nghia la 'Bo'.",
+        },
+        {
+          question: "What does 'Chair' mean in Vietnamese?",
+          options: ["Ban", "Cua", "Ghe", "Giuong"],
+          correct: 2,
+          explanation: "'Chair' nghia la 'Ghe'.",
+        },
+        {
+          question: "Khi vat o xa, ban dung tu nao?",
+          options: ["This", "That", "Here", "It"],
+          correct: 1,
+          explanation: "'That' dung khi chi vat o xa.",
+        },
+        {
+          question: "'Muoi bay' trong tieng Anh la gi?",
+          options: ["Fifteen", "Sixteen", "Seventeen", "Eighteen"],
+          correct: 2,
+          explanation: "'Muoi bay' la 'Seventeen' (17).",
+        },
+        {
+          question: "Who is 'Wife' in Vietnamese?",
+          options: ["Me", "Chi gai", "Ba", "Vo"],
+          correct: 3,
+          explanation: "'Wife' nghia la 'Vo'.",
+        },
+        {
+          question: "'Lamp' la gi?",
+          options: ["Sach", "Den", "Ban", "Ghe"],
+          correct: 1,
+          explanation: "'Lamp' nghia la 'Den'.",
+        },
+        {
+          question: "Fill in: ___ is a door. (pointing far away)",
+          options: ["This", "That", "Here", "A"],
+          correct: 1,
+          explanation: "Cai cua o xa, nen dung 'That is a door.'",
+        },
+        {
+          question: "'Twelve' la so may?",
+          options: ["10", "11", "12", "20"],
+          correct: 2,
+          explanation: "'Twelve' la so 12 (Muoi hai).",
+        },
+      ],
+    },
+    3: {
+      title: "Speak: About My Family",
+      type: "speak",
+      content: {
+        instruction: "Noi ve gia dinh va tuoi cua ban",
+        items: [
+          { text: "This is my mother.", phonetic: "/ðɪs ɪz maɪ ˈmʌðər/", meaning: "Day la me toi." },
+          { text: "Her name is Lan.", phonetic: "/hɜːr neɪm ɪz lɑːn/", meaning: "Ten ba ay la Lan." },
+          { text: "This is my father.", phonetic: "/ðɪs ɪz maɪ ˈfɑːðər/", meaning: "Day la bo toi." },
+          { text: "I am 25 years old.", phonetic: "/aɪ æm ˈtwenti faɪv jɪrz oʊld/", meaning: "Toi 25 tuoi." },
+          { text: "I love my family.", phonetic: "/aɪ lʌv maɪ ˈfæməli/", meaning: "Toi yeu gia dinh toi." },
+        ],
+      },
+    },
+  },
+};
